@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+}
+.container{
+    width:80%;
+    margin:auto;
+    padding: 20px;
+
+}
+
+.navbar{
+    background-color: black;
+}
+.logo{
+    float:left;
+    
+}
+.logo img{
+    width:50%;}
+
+.navbar .list   {
+    float:right;
+    
+    
+    }
+.list ul li{
+float: left;
+list-style-type: none;
+}
+
+.list ul li a{
+    font-family: nunito;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+.portfolio{
+    text-align: center;
+    margin-top: 70px;
+}
+.portfolio h2{
+    text-transform: uppercase;
+    font-family: nunito;
+    
+}
+.portfolio p{
+    margin-bottom: 50px;
+}
+.portfolioimg{
+    float:left;
+    width:33.33%;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+.portfolio img{
+    
+    display: block;
+
+    width:100%;
+}
+
